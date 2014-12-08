@@ -3,13 +3,11 @@
     "projectSettingsVersion": "1.1",
     "creationData": {
       "type": "App Designer",
-      "createDefaultBuildConfigs": true,
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
-      "src": "appDesigner",
-      "sourceDirectory": "www",
-      "projectGuid": "ccf5167c-d452-4715-9832-2556d335839f",
-      "lastModifiedDate": 1407303630714,
-      "creationDate": 1406739335648
+      "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2014-ww45/sample-live-video-streams/sample.zip",
+      "projectGuid": "197b037b-f681-4f91-910a-8a9d6da40983",
+      "lastModifiedDate": 1418074286643,
+      "creationDate": 1418074286573
     },
     "XDK-app-designer": "true",
     "sourceDirectory": "www",
@@ -240,10 +238,15 @@
     "buildConfigurations": {
       "Android": {
         "platform_": "android",
+        "runtime_": "Cordova 3.x",
         "name_": "Android",
-        "preferences_": {},
+        "preferences_": {
+          "android-minSdkVersion": "10",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
+        },
         "isActive_": true,
-        "appName_": "TVApp",
+        "appName_": "LiveVideoStreams",
         "appID_": "com.elroyashtian.tvapp",
         "appAccess_": "*",
         "icons_": [],
@@ -254,14 +257,19 @@
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "1.0.0",
-        "runtime_": "Cordova 3.x"
+        "appVersionCode_": "1"
       },
       "Android-Crosswalk": {
         "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
         "name_": "Android-Crosswalk",
-        "preferences_": {},
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
+        },
         "isActive_": true,
-        "appName_": "TVApp",
+        "appName_": "LiveVideoStreams",
         "appID_": "not.yet.specified",
         "appAccess_": "*",
         "icons_": [],
@@ -272,14 +280,18 @@
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "1.0.0",
-        "runtime_": "Crosswalk with Cordova 3.x"
+        "appVersionCode_": "1"
       },
       "iOS": {
         "platform_": "ios",
+        "runtime_": "Cordova 3.x",
         "name_": "iOS",
-        "preferences_": {},
+        "preferences_": {
+          "ios-target": "5",
+          "ios-configuration": "adhoc"
+        },
         "isActive_": true,
-        "appName_": "TVApp",
+        "appName_": "LiveVideoStreams",
         "appID_": "not.yet.specified",
         "appAccess_": "*",
         "icons_": [],
@@ -289,15 +301,15 @@
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
-        "appVersion_": "1.0.0",
-        "runtime_": "Cordova 3.x"
+        "appVersion_": "1.0.0"
       },
       "Windows8": {
         "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
         "name_": "Windows8",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "TVApp",
+        "appName_": "LiveVideoStreams",
         "appID_": "not.yet.specified",
         "appAccess_": "*",
         "icons_": [],
@@ -307,15 +319,15 @@
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
-        "appVersion_": "1.0.0.0",
-        "runtime_": "Cordova 3.x"
+        "appVersion_": "1.0.0.0"
       },
       "WindowsPhone8": {
         "platform_": "wp8",
+        "runtime_": "Cordova 3.x",
         "name_": "WindowsPhone8",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "TVApp",
+        "appName_": "LiveVideoStreams",
         "appID_": "not.yet.specified",
         "appAccess_": "*",
         "icons_": [],
@@ -325,8 +337,7 @@
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
-        "appVersion_": "1.0.0.0",
-        "runtime_": "Cordova 3.x"
+        "appVersion_": "1.0.0.0"
       }
     }
   }
