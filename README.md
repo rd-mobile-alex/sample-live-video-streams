@@ -1,28 +1,26 @@
-TV Browser App
-============================
-The TV Browser app showcases online LIVE video streams from various sources.
+Web Video Playback
+=========================
+This sample contains embedded videos from Youtube, Vimeo and the local directory.
 
-Intel(R) XDK 
+Intel(R) XDK
 -------------------------------------------
 This sample is part of the Intel(R) XDK. 
-Download the Intel(R) XDK at http://software.intel.com/en-us/html5. To see the technical details of the sample, 
-please visit the sample article page at https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-admob-cordova-plugin.
+Download the Intel XDK at http://software.intel.com/en-us/html5.
+To see the technical detail of the sample, please visit the sample article page 
+at http://software.intel.com/en-us/html5/articles/developing-with-web-video-elements-using-intel-xdk. 
 
-
-Important App Files
----------------------------
-* index.html
-* icon.png
-* screenshot.png
+Application Files
+-----------------
 * app.json
-* README.md
-* js/*
-* css/*
-* appframework/*
+* icon.png
+* index.html
+* readme.md
+* app_framework/
+* css/
+* videos/
 
-License Information Follows
----------------------------
-Copyright (c) 2014, Intel Corporation. All rights reserved.
+
+Copyright (c) 2013, Intel Corporation. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, 
 are permitted provided that the following conditions are met:
@@ -49,7 +47,21 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
 OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-App Framework
---------------------------
-* source:  http://app-framework-software.intel.com/
-* license:  https://github.com/01org/appframework/blob/master/license.txt
+App Framework (formerly jQ.Mobi)
+-----------------------------------------------------------------------------
+* source:  https://github.com/01org/appframework
+* license: https://github.com/01org/appframework/blob/master/license.txt
+
+Video (Think you know Intel? Think again.-YouTube)
+-----------------------------------------------------------------------------
+*source:  https://www.youtube.com/watch?v=JIu16I-D3GM
+*license: https://www.youtube.com/static?template=terms (Youtube Standard License)
+
+Video (3 years of filming nature-vimeo)
+-----------------------------------------------------------------------------
+*source:  http://vimeo.com/83968874
+*license: http://creativecommons.org/licenses/by/3.0/
+
+Video (appdesigner-gettingstarted.mp4)
+-----------------------------------------------------------------------------
+Video are created by Intel Corp.
