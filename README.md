@@ -1,6 +1,6 @@
-TV Browser App
+Live Video Streams App
 ============================
-The TV Browser app showcases online LIVE video streams from various sources.
+The Live Video Streams app showcases online LIVE video streams from various sources.
 
 Intel(R) XDK 
 -------------------------------------------
