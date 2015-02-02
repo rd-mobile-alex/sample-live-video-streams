@@ -14,5 +14,5 @@
 	"type":"appdesigner",
 	"appname":"demo.livevideostreamapp",
 	"relname":"4.0.0",
-  	"projectTypeName": "com.intel.xdk.projecttype.webapp"
+  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
 }
