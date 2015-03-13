@@ -1,18 +1,29 @@
 {
-	"repoName":"sample-live-video-streams",
-	"title":"Live Video Streams",
-	"abbr":"Live Video",
-	"tooltip":"[App Designer Ready] This sample application showcases online LIVE video streams from various sources. This sample has AdMob Banner and Interstitial ads intergrated using the com.google.admob Apache Cordova* plug-in maintained by admob.",
-	"description":"[App Designer Ready] This sample application showcases online LIVE video streams from various sources. This sample has AdMob Banner and Interstitial ads intergrated using the com.google.admob Apache Cordova* plug-in maintained by admob.",
-	"articleUrl":"https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-admob-cordova-plugin",
-    	"screenshotUrl":"",
-    	"iconUrl":"",
-	"highlights":["App Designer", "App Framework", "Apache Cordova API", "Ads"],
-    	"keywords":["App Designer", "App Framework", "Apache Cordova API", "Ads","Monetize"],
-	"visible": "true",
-	"apppreview":"true",
-	"type":"appdesigner",
-	"appname":"demo.livevideostreamapp",
-	"relname":"4.0.0",
-  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
+   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
+   "repoName" : "sample-live-video-streams",
+   "relName" : "4.0.0",
+   "highlights" : [
+      "App Designer",
+      "App Framework",
+      "Apache Cordova API",
+      "Ads"
+   ],
+   "type" : "appdesigner",
+   "iconUrl" : "",
+   "articleUrl" : "https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-admob-cordova-plugin",
+   "tooltip" : "[App Designer Ready] This sample application showcases online LIVE video streams from various sources. This sample has AdMob Banner and Interstitial ads intergrated using the com.google.admob Apache Cordova* plug-in maintained by admob.",
+   "appPreview" : "true",
+   "visible" : "true",
+   "screenshotUrl" : "",
+   "keywords" : [
+      "App Designer",
+      "App Framework",
+      "Apache Cordova API",
+      "Ads",
+      "Monetize"
+   ],
+   "description" : "[App Designer Ready] This sample application showcases online LIVE video streams from various sources. This sample has AdMob Banner and Interstitial ads intergrated using the com.google.admob Apache Cordova* plug-in maintained by admob.",
+   "title" : "Live Video Streams",
+   "appName" : "demo.livevideostreamapp",
+   "abbr" : "Live Video"
 }
