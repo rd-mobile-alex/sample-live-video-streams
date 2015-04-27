@@ -21,6 +21,7 @@
       {
         "id": "intel.xdk.player",
         "selectedState": "Excluded",
+        "version": "?",
         "data": {},
         "paramvals": {},
         "dependsOn": [],
@@ -29,6 +30,7 @@
       {
         "id": "intel.xdk.device",
         "selectedState": "Excluded",
+        "version": "?",
         "data": {},
         "paramvals": {},
         "dependsOn": [],
