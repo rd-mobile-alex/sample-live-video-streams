@@ -126,10 +126,10 @@ app.hideSplashScreen = function() {
     if( navigator.splashscreen && navigator.splashscreen.hide ) {   // Cordova API detected
         navigator.splashscreen.hide() ;
     }
-    if( window.intel && intel.xdk && intel.xdk.device ) {           // Intel XDK device API detected, but...
-        if( intel.xdk.device.hideSplashScreen )                     // ...hideSplashScreen() is inside the base plugin
-            intel.xdk.device.hideSplashScreen() ;
-    }
+//    if( window.intel && intel.xdk && intel.xdk.device ) {           // Intel XDK device API detected, but...
+//        if( intel.xdk.device.hideSplashScreen )                     // ...hideSplashScreen() is inside the base plugin
+//            intel.xdk.device.hideSplashScreen() ;
+//    }
 
     app.consoleLog(fName, "exit") ;
 } ;
