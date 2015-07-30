@@ -17,50 +17,50 @@
         "libraries": [],
         "serviceMethods": [],
         "cordovaPluginsDirectory": "plugins",
-"cordovaPlugins": [
-      {
-        "id": "org.apache.cordova.device",
-        "version": "0.2.13",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.splashscreen",
-        "version": "0.3.5",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.media",
-        "version": "0.2.15",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "com.cranberrygame.phonegap.plugin.ad.admob",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      }
-    ],
+        "cordovaPlugins": [
+            {
+                "id": "org.apache.cordova.device",
+                "version": "0.2.13",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            },
+            {
+                "id": "org.apache.cordova.splashscreen",
+                "version": "0.3.5",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            },
+            {
+                "id": "org.apache.cordova.media",
+                "version": "0.2.15",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            },
+            {
+                "id": "com.cranberrygame.phonegap.plugin.ad.admob",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            }
+        ],
         "buildConfigurations": {
             "Android": {
                 "platform_": "android",
                 "runtime_": "Cordova 3.x",
                 "name_": "Android",
                 "preferences_": {
-                    "android-minSdkVersion": "10",
+                    "android-minSdkVersion": "14",
                     "android-targetSdkVersion": "19",
                     "android-installLocation": "auto"
                 },
